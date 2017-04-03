@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="cn.edu.cqu.muscletraining.MainActivity">
+
+    <TabHost
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBackGray">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/frontbodypuresmall"
+                        android:adjustViewBounds="true"
+                        android:scaleType="matrix"
+                        android:id="@+id/ivBodyPicPure"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignLeft="@+id/ivBodyPic"
+                        android:layout_alignStart="@+id/ivBodyPic"
+                        />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/frontbodysmall"
+                        android:adjustViewBounds="true"
+                        android:scaleType="matrix"
+                        android:id="@+id/ivBodyPic"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true" />
+
+                    <ToggleButton
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:id="@+id/tbtnBody"
+                        android:layout_weight="1"
+                        android:textOff="Check the Back"
+                        android:textOn="Check the Front"
+                        android:layout_below="@id/ivBodyPic" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ListView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/listPlan"
+                        android:layout_marginTop="10dp">
+                    </ListView>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/tab3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <include
+                                android:id="@+id/layoutSocietyItem"
+                                layout="@layout/item_society"
+                                />
+                            <include
+                                android:id="@+id/layoutSocietyItem1"
+                                layout="@layout/item_society1"
+                                />
+                            <include
+                                android:id="@+id/layoutSocietyItem2"
+                                layout="@layout/item_society2"
+                                />
+                            <include
+                                android:id="@+id/layoutSocietyItem3"
+                                layout="@layout/item_society3"
+                                />
+                            <include
+                                android:id="@+id/layoutSocietyItem4"
+                                layout="@layout/item_society4"
+                                />
+
+                        </LinearLayout>
+
+                    </ScrollView>
+
+                </RelativeLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+</RelativeLayout>

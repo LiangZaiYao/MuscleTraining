@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">MuscleTraining</string>
+    <string name="blog">今天是个好日子啊心想的事儿都能成，明天又是好日子千金的光阴不能等</string>
+    <string name="blog1">你还要我怎样 要怎样 你千万不要在我婚礼的现场\n我听完你爱的歌 就上了车\n爱过你很值得</string>
+    <string name="blog2">唱出你的热情伸出你的双手让我拥抱着你的梦 让我拥有你真心的面孔 让我们的笑容充满着青春的骄傲 为明天献出虔诚的祈祷 </string>
+    <string name="blog3">未怕罡风吹散了热爱 万水千山总是情\n聚散也有天注定 不怨天不怨命\n但求有山水共作证</string>
+    <string name="blog4">快乐池塘栽种了 梦想就变成海洋\n鼓的眼睛大嘴巴 同样唱的响亮\n借我一双小翅膀 就能飞向太阳\n我相信 奇迹就在身上\n啦......</string>
+
+    <string-array name="plan1">
+        <item>Day 1:Chest Muscles</item>
+        <item>Day 2:Back Muscles</item>
+        <item>Day 3:Off Day</item>
+        <item>Day 4:Legs and Haunch Muscles</item>
+        <item>Day 5:Off Day</item>
+        <item>Day 6:Arms Muscles</item>
+        <item>Day 7:Off Day</item>
+    </string-array>
+
+    <string-array name="plan2">
+        <item>Day 1:Aerobic Exercise</item>
+        <item>Day 2:Legs and Haunch Muscles</item>
+        <item>Day 3:Off Day</item>
+        <item>Day 4:Back or Chest Muscle</item>
+        <item>Day 5:Aerobic Exercise</item>
+        <item>Day 6:Legs and Haunch Muscles</item>
+        <item>Day 7:Off Day</item>
+    </string-array>
+
+    <string-array name="plan3">
+        <item>Day 1:Aerobic Exercise</item>
+        <item>Day 2:Arms Muscles</item>
+        <item>Day 3:Off Day</item>
+        <item>Day 4:Back Muscles</item>
+        <item>Day 5:Off Day</item>
+        <item>Day 6:Chest Muscles</item>
+        <item>Day 7:Legs and Haunch Muscles</item>
+    </string-array>
+
+    <string-array name="plan4">
+        <item>Day 1:Aerobic Exercise</item>
+        <item>Day 2:Legs and Haunch Muscles</item>
+        <item>Day 3:Aerobic Exercise</item>
+        <item>Day 4:Off Day</item>
+        <item>Day 5:Back or Chest Muscles</item>
+        <item>Day 6:Aerobic Exercise</item>
+        <item>Day 7:Off Day</item>
+    </string-array>
+</resources>
