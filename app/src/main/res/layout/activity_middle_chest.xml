@@ -9,16 +9,91 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="cn.edu.cqu.muscletraining.MiddleChestActivity">
-
-    <TextView
-        android:text="MiddleChest"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="36dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="27dp"
-        android:id="@+id/textView7" />
+        android:layout_alignParentStart="true">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="Action 1: 15 times each group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:layout_marginTop="20dp"
+                android:id="@+id/textView7"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/xiongzhong1"
+                android:layout_below="@+id/textView7"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="10dp"
+                android:id="@+id/gvXiongzhong1"/>
+
+            <TextView
+                android:text="Action 2: 12 times each group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:layout_below="@+id/gvXiongzhong1"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textView8"
+                />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/xiongzhong2"
+                android:layout_below="@+id/textView8"
+                android:layout_marginTop="10dp"
+                android:id="@+id/gvXiongzhong2"/>
+
+            <TextView
+                android:text="Action 3: 10 times each group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:layout_below="@+id/gvXiongzhong2"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textView9"
+                />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/xiongzhong3"
+                android:layout_below="@+id/textView9"
+                android:layout_marginTop="10dp"
+                android:id="@+id/gvXiongzhong3"/>
+
+
+            <Button
+                android:text="Done!"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button4"
+                android:onClick="onClickBack"
+                android:layout_below="@+id/gvXiongzhong3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="30dp"/>
+
+        </RelativeLayout>
+    </ScrollView>
 </RelativeLayout>

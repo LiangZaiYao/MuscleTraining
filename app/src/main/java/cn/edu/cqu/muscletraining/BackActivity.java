@@ -38,7 +38,7 @@ public class BackActivity extends AppCompatActivity {
                         if(index == 1)
                         {
                             Intent intent = new Intent();
-                            //intent.setClass(BackActivity.this, XiefangActivity.class);
+                            intent.setClass(BackActivity.this, XiefangActivity.class);
                             startActivity(intent);
                         }
                         else {
@@ -51,7 +51,7 @@ public class BackActivity extends AppCompatActivity {
                         if(index == 2)
                         {
                             Intent intent = new Intent();
-                            //intent.setClass(BackActivity.this, DaxiaoyuanActivity.class);
+                            intent.setClass(BackActivity.this, DaXiaoyuanActivity.class);
                             startActivity(intent);
                         }
                         else {
@@ -64,7 +64,7 @@ public class BackActivity extends AppCompatActivity {
                         if(index == 3)
                         {
                             Intent intent = new Intent();
-                            //intent.setClass(BackActivity.this, BeikuoActivity.class);
+                            intent.setClass(BackActivity.this, BeikuoActivity.class);
                             startActivity(intent);
                         }
                         else {

@@ -18,29 +18,64 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true">
 
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-
             <TextView
-                android:text="TextView"
+                android:text="Action 1: 15 times each group"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:layout_marginTop="20dp"
+                android:id="@+id/textView5"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:layout_marginLeft="15dp"
-                android:layout_marginStart="15dp"
-                android:layout_marginTop="13dp"
-                android:id="@+id/textView5" />
+                android:layout_alignParentStart="true" />
 
             <pl.droidsonroids.gif.GifImageView
-            android:id="@+id/activity_gif_giv"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true" />
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/xiongshang1"
+                android:layout_below="@+id/textView5"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="10dp"
+                android:id="@+id/gvShangxiong1"/>
+
+            <TextView
+                android:text="Action 2: 10 times each group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:layout_below="@+id/gvShangxiong1"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textView6"
+                />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/xiongshang2"
+                android:layout_below="@+id/textView6"
+                android:layout_marginTop="10dp"
+                android:id="@+id/gvShangxiong2"/>
+
+
+            <Button
+                android:text="Done!"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button4"
+                android:onClick="onClickBack"
+                android:layout_below="@+id/gvShangxiong2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="30dp"/>
 
         </RelativeLayout>
     </ScrollView>

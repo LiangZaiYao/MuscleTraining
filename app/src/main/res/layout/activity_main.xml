@@ -67,7 +67,8 @@
                         android:layout_weight="1"
                         android:textOff="Check the Back"
                         android:textOn="Check the Front"
-                        android:layout_below="@id/ivBodyPic" />
+                        android:layout_below="@id/ivBodyPic"
+                        android:layout_marginTop="30dp"/>
 
                 </RelativeLayout>
 
@@ -92,37 +93,30 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
+
+
                     <ScrollView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent">
 
-                        <LinearLayout
+                        <RelativeLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:orientation="vertical">
-
-                            <include
-                                android:id="@+id/layoutSocietyItem"
-                                layout="@layout/item_society"
-                                />
-                            <include
-                                android:id="@+id/layoutSocietyItem1"
-                                layout="@layout/item_society1"
-                                />
-                            <include
-                                android:id="@+id/layoutSocietyItem2"
-                                layout="@layout/item_society2"
-                                />
-                            <include
-                                android:id="@+id/layoutSocietyItem3"
-                                layout="@layout/item_society3"
-                                />
-                            <include
-                                android:id="@+id/layoutSocietyItem4"
-                                layout="@layout/item_society4"
+                            <Button
+                                android:id="@+id/floatButton"
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:layout_alignParentRight="true"
+                                android:background="@drawable/floatbtn"
                                 />
 
-                        </LinearLayout>
+                            <ListView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_below="@id/floatButton"
+                                android:id="@+id/listDiary"/>
+                        </RelativeLayout>
 
                     </ScrollView>
 
