@@ -14,16 +14,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="0.44"
+        android:layout_marginLeft="10dp"
         android:text="Text"
         android:textColor="@android:color/background_dark"
-        android:textSize="25dp"/>
+        android:textSize="21dp"/>
 
     <TextView
         android:id="@+id/tvDate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:textSize="20dp"
+        android:textSize="15dp"
         android:text="Account"
         android:textAlignment="viewEnd"
         android:gravity="end"

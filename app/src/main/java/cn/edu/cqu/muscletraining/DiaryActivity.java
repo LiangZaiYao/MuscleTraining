@@ -34,13 +34,13 @@ public class DiaryActivity extends AppCompatActivity {
 
     public void save(View v) {
         if (etDiaryText.getText().length() == 0) {
-            Toast.makeText(getBaseContext(), "At Least Enter Something!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getBaseContext(), "At Least Enter Something !", Toast.LENGTH_SHORT).show();
         } else {
-            SimpleDateFormat formatter = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss     ");
+            SimpleDateFormat formatter = new SimpleDateFormat("yy/MM/dd HH:mm     ");
             Date curDate = new Date(System.currentTimeMillis());//获取当前时间
             String str = formatter.format(curDate);
 
-            SimpleDateFormat df = new SimpleDateFormat("yyyyMMddHHmmss");
+            SimpleDateFormat df = new SimpleDateFormat("yyMMddHHmm");
             Id_item = df.format(new Date());
             Data data = new Data();
             data.setStrText(etDiaryText.getText().toString());

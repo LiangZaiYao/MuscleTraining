@@ -34,7 +34,8 @@
 
     <Button
         android:text="Done"
-        android:layout_width="wrap_content"
+        android:background="@drawable/btnshape"
+        android:layout_width="80dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/ivChestDetail"
         android:layout_centerHorizontal="true"

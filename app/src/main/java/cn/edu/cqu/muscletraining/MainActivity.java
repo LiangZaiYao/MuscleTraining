@@ -49,8 +49,10 @@ public class MainActivity extends TabActivity {
         //setContentView(R.layout.activity_main);
 
         //获取上个activity传递来的数据
-        Bundle bundle = getIntent().getExtras();
-        planindex = bundle.getInt("planIndex");
+        if(!(getIntent().getExtras() == null)) {
+            Bundle bundle = getIntent().getExtras();
+            planindex = bundle.getInt("planIndex");
+        }
 
         // 得到TabActivity中的TabHost对象
         TabHost tabHost = getTabHost();
@@ -61,9 +63,9 @@ public class MainActivity extends TabActivity {
         // 加上标签
         // 参数设置：新增的TabSpec的标签，标签中显示的字样
         // setContent设置内容对应的View资源标号
-        tabHost.addTab(tabHost.newTabSpec("tab1").setIndicator("Body\nGraphy").setContent(R.id.tab1));;
+        tabHost.addTab(tabHost.newTabSpec("tab1").setIndicator("Muscle\nGraphy").setContent(R.id.tab1));;
         tabHost.addTab(tabHost.newTabSpec("tab3").setIndicator("My Plan").setContent(R.id.tab2));
-        tabHost.addTab(tabHost.newTabSpec("tab3").setIndicator("Training\nDiary").setContent(R.id.tab3));
+        tabHost.addTab(tabHost.newTabSpec("tab3").setIndicator("Train\nDiary").setContent(R.id.tab3));
         tabHost.setCurrentTab(1);//设置默认选中的TAB
 
         tgbtnBody = (ToggleButton)findViewById(R.id.tbtnBody);

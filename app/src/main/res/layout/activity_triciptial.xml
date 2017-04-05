@@ -65,8 +65,9 @@
                 android:layout_marginTop="10dp"
                 android:id="@+id/gvGongsan2"/>
             <Button
-                android:text="Done!"
-                android:layout_width="wrap_content"
+                android:text="Done"
+                android:background="@drawable/btnshape"
+                android:layout_width="80dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/button4"
                 android:onClick="onClickBack"

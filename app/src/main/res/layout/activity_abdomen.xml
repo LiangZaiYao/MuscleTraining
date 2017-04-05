@@ -34,11 +34,12 @@
 
     <Button
         android:text="Done"
-        android:layout_width="wrap_content"
+        android:layout_width="80dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="59dp"
+        android:background="@drawable/btnshape"
         android:id="@+id/button"
-        android:onClick="onClickBack"/>
+        android:onClick="onClickBack"
+        android:layout_below="@+id/ivAbdomenDetail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp" />
 </RelativeLayout>
