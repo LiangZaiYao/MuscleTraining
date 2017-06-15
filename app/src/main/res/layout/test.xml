@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Breakfast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/textView2" />
+    <Button
+        android:id="@+id/freshBtn1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/fresh"
+        android:layout_marginRight="20dp"
+        />
+
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/b1"
+        android:id="@+id/ivBreakfast"
+        android:layout_below="@+id/freshBtn1"
+        />
+    <TextView
+        android:text="Lunch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/textView3"
+        android:layout_below="@id/ivBreakfast"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/freshBtn2"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/fresh"
+        android:layout_below="@id/ivBreakfast"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/l1"
+        android:id="@+id/ivLunch"
+        android:layout_below="@id/freshBtn2"/>
+    <TextView
+        android:text="Dinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/textView4"
+        android:layout_below="@id/ivLunch"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/freshBtn3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/fresh"
+        android:layout_below="@id/ivLunch"
+        android:layout_marginRight="20dp"
+        />
+
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/d1"
+        android:id="@+id/ivDinner"
+        android:layout_below="@id/freshBtn3"
+        />
+
+
+
+
+</RelativeLayout>

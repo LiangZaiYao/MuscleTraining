@@ -64,6 +64,27 @@
                 android:layout_alignParentStart="true"
                 android:layout_marginTop="10dp"
                 android:id="@+id/gvGongsan2"/>
+
+            <TextView
+                android:text="Action 3: 12 times each group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:layout_below="@+id/gvGongsan2"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textView7"
+                />
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/gongsan3"
+                android:layout_below="@+id/textView7"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="10dp"
+                android:id="@+id/gvGongsan3"/>
+
             <Button
                 android:text="Done"
                 android:background="@drawable/btnshape"
@@ -71,7 +92,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/button4"
                 android:onClick="onClickBack"
-                android:layout_below="@+id/gvGongsan2"
+                android:layout_below="@+id/gvGongsan3"
                 android:layout_centerHorizontal="true"
                 android:layout_marginBottom="50dp"
                 android:layout_marginTop="30dp"/>

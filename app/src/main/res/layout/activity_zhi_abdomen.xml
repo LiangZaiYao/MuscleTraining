@@ -53,29 +53,49 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/button4"
                 android:onClick="onClickBack"
-                android:layout_below="@+id/gvFuzhi2"
+                android:layout_below="@+id/gvFuzhi3"
                 android:layout_centerHorizontal="true"
                 android:layout_marginBottom="50dp"
                 android:layout_marginTop="30dp"/>
 
             <pl.droidsonroids.gif.GifImageView
-                android:layout_width="290dp"
-                android:layout_height="wrap_content"
-                android:src="@drawable/fuzhi1"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/fu1"
                 android:id="@+id/gvFuzhi1"
                 android:layout_below="@+id/textView5"
                 android:layout_centerHorizontal="true" />
 
             <pl.droidsonroids.gif.GifImageView
-                android:layout_width="290dp"
-                android:layout_height="wrap_content"
-                android:src="@drawable/fuzhi2"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/fu2"
                 android:layout_marginTop="14dp"
                 android:id="@+id/gvFuzhi2"
                 android:layout_below="@+id/textView6"
                 android:layout_alignLeft="@+id/gvFuzhi1"
                 android:layout_alignStart="@+id/gvFuzhi1" />
 
+            <TextView
+                android:text="Action 3: 20 times each group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:layout_below="@+id/gvFuzhi2"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textView7"
+                />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/fu5"
+                android:layout_marginTop="14dp"
+                android:id="@+id/gvFuzhi3"
+                android:layout_below="@+id/textView7"
+                android:layout_alignLeft="@+id/gvFuzhi2"
+                android:layout_alignStart="@+id/gvFuzhi2" />
         </RelativeLayout>
     </ScrollView>
 

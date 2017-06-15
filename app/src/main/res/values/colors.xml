@@ -6,4 +6,6 @@
     <color name="deepWhite">#E0E0E0</color>
     <color name="colorGray">#909090</color>
     <color name="colorTabBackground">#E0E0EE</color>
+    <color name="transparent">#60000000</color>
+
 </resources>

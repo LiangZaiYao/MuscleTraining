@@ -36,8 +36,8 @@
                 android:layout_alignParentStart="true" />
 
             <pl.droidsonroids.gif.GifImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
                 android:src="@drawable/beikuo1"
                 android:layout_below="@+id/textView5"
                 android:layout_alignParentLeft="true"
@@ -45,6 +45,47 @@
                 android:layout_marginTop="10dp"
                 android:id="@+id/gvBeikuo1"/>
 
+            <TextView
+                android:text="Action 2: 12 times each group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:layout_below="@+id/gvBeikuo1"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textView6"
+                />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/beikuo2"
+                android:layout_below="@+id/textView6"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="10dp"
+                android:id="@+id/gvBeikuo2"/>
+
+            <TextView
+                android:text="Action 2: 12 times each group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                android:layout_below="@+id/gvBeikuo2"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textView7"
+                />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/beikuo3"
+                android:layout_below="@+id/textView7"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="10dp"
+                android:id="@+id/gvBeikuo3"/>
 
             <Button
                 android:text="Done"
@@ -53,7 +94,7 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/button4"
                 android:onClick="onClickBack"
-                android:layout_below="@+id/gvBeikuo1"
+                android:layout_below="@+id/gvBeikuo3"
                 android:layout_centerHorizontal="true"
                 android:layout_marginBottom="50dp"
                 android:layout_marginTop="30dp"/>

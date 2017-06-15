@@ -76,7 +76,6 @@
         <activity
             android:name=".TriciptialActivity"
             android:label="Triceps Muscle of Arm" />
-        <activity android:name=".DiaryActivity" />
         <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
